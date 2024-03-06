@@ -1,12 +1,9 @@
-import { createRoot } from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { App } from './App';
+import {createRoot} from 'react-dom/client'
 
-const container = document.getElementById('root');
+const container=document.getElementById('root')
 
-const root = createRoot(container);
-
+const root=createRoot(container)
 
 root.render(
-    <h1><App /></h1>
+    <h1>Hello Hello</h1>
 )
